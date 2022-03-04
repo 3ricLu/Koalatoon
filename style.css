@@ -152,6 +152,28 @@ h6 {
     box-shadow: 5px 5px;
 }
 
+.left-right {
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    position:relative;
+    background-color:#333;
+}
+.slider {
+    width:30%;
+    height:30%;
+    position:absolute;
+    top:0;
+    left:-2000px;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transition:0.8s ease;
+}
+
+.left-right:hover .slider {
+  left: 10%;
+}
+
 #tent {
     max-width: 100%;
     grid-column: 2/2;
