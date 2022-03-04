@@ -71,6 +71,13 @@ h6 {
     /* background: linear-gradient(#C6ECDE, white); */
     background: #d5e599;
     /* background: #f3efa2; */
+    background: url(img/landscape1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: auto;
+
 }
 
 .showcase {
@@ -130,7 +137,7 @@ h6 {
 }
 
 .custom-shape-divider-top-1646414558 .shape-fill {
-    fill: #D5E498;
+    fill: #A8CF78;
 }
 
 
@@ -436,8 +443,8 @@ h6 {
     width: 100%;
     position: fixed;
     /* background: #c1d67b; */
-    background: #f1eeaa;
-    border-bottom: 5px solid black;
+    background: #9CD5EF;
+    /* border-bottom: 5px solid black; */
     position: sticky;
     top: 0;
     z-index: 1;
