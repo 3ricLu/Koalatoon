@@ -71,7 +71,7 @@ h6 {
     /* background: linear-gradient(#C6ECDE, white); */
     background: #d5e599;
     /* background: #f3efa2; */
-    background: url(img/landscape1.png);
+    background: url(img/landscape.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -114,31 +114,33 @@ h6 {
 
 
 .about-container {
-    background:#d7f5da;
+    background:#d4f2ff;
     padding: 9% 10%;
 
 }
 
-.custom-shape-divider-top-1646414558 {
+
+.custom-shape-divider-top-1646440139 {
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    background: #D7F5DA;
-} 
+    background:#d4f2ff;
+}
 
-.custom-shape-divider-top-1646414558 svg {
+.custom-shape-divider-top-1646440139 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 106px;
 }
 
-.custom-shape-divider-top-1646414558 .shape-fill {
+.custom-shape-divider-top-1646440139 .shape-fill {
     fill: #A8CF78;
 }
+
 
 
 .about-container h4{
