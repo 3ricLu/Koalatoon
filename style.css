@@ -71,7 +71,7 @@ h6 {
     /* background: linear-gradient(#C6ECDE, white); */
     background: #d5e599;
     /* background: #f3efa2; */
-    background: url(img/landscape.png);
+    background: url(img/land-home.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -445,7 +445,7 @@ h6 {
     width: 100%;
     position: fixed;
     /* background: #c1d67b; */
-    background: #9CD5EF;
+    background: #C1E9FA;
     /* border-bottom: 5px solid black; */
     position: sticky;
     top: 0;
