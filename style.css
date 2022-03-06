@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-size: 85px;
+    font-size: 75px;
     font-family: "Balsamiq Sans", sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
@@ -70,7 +70,7 @@ h6 {
 }
 
 .subheading {
-    font-size: 28px;
+    font-size: 24px;
     font-family: "Rubik", sans-serif;
     font-weight: lighter;
     color: var(--subpar-green-color);
@@ -93,14 +93,14 @@ h6 {
 }
 
 .showcase {
-    padding: 3.5% 6%;
+    padding: 1.5% 6%;
     display: block;
     justify-content: center;
     text-align: center;
 }
 
 .campfire-friends {
-    max-width: 52%;
+    max-width: 49%;
 }
 
 .coming-soon-button {
@@ -114,8 +114,8 @@ h6 {
     font-weight: bold;
     text-decoration: none;
     color: black;
-    padding: 20px 25px;
-    margin: 25px;
+    padding: 18px 22px;
+    margin: 15px;
     border-radius: 50px;
 }
 
@@ -496,7 +496,7 @@ h6 {
 }
 
 .button {
-    padding: 20px 25px;
+    padding: 18px 22px;
     background-color: #F0EEAA;
     font-size: 22px;
     font-family: "Rubik", sans-serif;
@@ -543,7 +543,7 @@ h6 {
     /* border-bottom: 5px solid black; */
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 9999;
   }
 
   .main {
@@ -760,6 +760,79 @@ background: rgba(0, 0, 0, 0.5);
 background: rgba(0, 0, 0, 0.8);
 }
   
+
+/* Scroll down button */
+
+scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+  }
+  
+
+  .scroll-down {
+    position: relative;
+    margin:auto;
+    display: block;
+    width: 21px;
+    height: 42px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  
+
+
+  .scroll-down:before{
+      position: relative;
+      content: "";
+      display: block;
+      height: 0.6em;
+      width:0.6em;
+      background-color: #000000;
+      border-radius: 50%;
+      margin: auto;
+      animation: move-down 2s infinite;
+
+  }
+  
+  @keyframes move-down {
+      80% {
+          opacity: 0.4;
+      }
+      100% {
+          transform: translateY(1.3em);
+          opacity:0;
+      }
+  }
+  @keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5x);
+      transform: translateY(-5px);
+    }
+    60% {
+      -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  }
+  
+
+  
+
 /* Start of Media */
   @media (max-width:1200px) {
 
@@ -775,7 +848,7 @@ background: rgba(0, 0, 0, 0.8);
       }
       
     h2 {
-        font-size: 70px;
+        font-size: 65px;
 
     }
 
@@ -794,7 +867,7 @@ background: rgba(0, 0, 0, 0.8);
     }
 
     .campfire-friends {
-        max-width: 80%;
+        max-width: 70%;
     }
     #tent {
         padding-top: 50px;
@@ -940,7 +1013,7 @@ background: rgba(0, 0, 0, 0.8);
 
 
     h2 {
-        font-size: 45px;
+        font-size: 40px;
 
     }
 
@@ -955,7 +1028,7 @@ background: rgba(0, 0, 0, 0.8);
     }
 
     .subheading {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     
