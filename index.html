@@ -25,11 +25,13 @@
             var reveals = document.querySelectorAll('.reveal');
 
             for(var i = 0; i < reveals.length; i++) {
-                var windowheight = window.innerHeight;
-                var revealtop = reveals[i].getBoundingClientRect().top;
-                var revealpoint = 75;
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
 
-                if(revealtop < windowheight - revealpoint) {
+                /*change revealPoint for how much user needs to scroll to reveal things*/
+                var revealPoint = 75;
+
+                if(revealTop < windowHeight - revealPoint) {
                     reveals[i].classList.add('active');
                 }
                 else {
