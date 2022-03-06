@@ -927,8 +927,8 @@ scroll-down {
     /* little square */
     .nav > .nav-btn > label {
       display: inline-block;
-      width: 90px;
-      height: 90px;
+      width: 85px;
+      height: 85px;
       padding: 25px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
