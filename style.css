@@ -861,10 +861,12 @@ background: rgba(0, 0, 0, 0.8);
 
     /* horizontal lines */
     .nav > .nav-btn > label > span {
-      display: block;
-      width: 35px;
-      height: 13px;
-    }
+        display: block;
+        width: 35px;
+        height: 13px;
+        border-top: 4.5px solid #000;
+      }
+
     
     .nav > .nav-links {
       position: absolute;
