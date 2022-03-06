@@ -17,6 +17,28 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 
+    <!-- Revealing script -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 75;
+
+                if(revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+            } 
+        }
+    </script>
+
     
      <!-- Favicon-->
      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -80,12 +102,7 @@
                 <!-- <button><a class="connect-wallet-button" href="" title='Coming Soon'>CONNECT WALLET</a></button> -->
 
             </div>
-
-            
           </div>
-            
-
-        
 
         <!-- Home -->
         
@@ -130,7 +147,7 @@
 
         <div class="about-container" id="about">
             <h3>WHO ARE KOALA KREW?</h3>
-            <div class="about">
+            <div class="about reveal">
             
             <div id="about-description">
                 
@@ -157,7 +174,7 @@
 
             
 
-        <div class="display">
+        <div class="display reveal">
             <div class="display-area">
                 <div class="cards-wrapper">
                 
@@ -199,7 +216,7 @@
             </div>
         </div>
 
-          <h4 class="gallery-description display">
+          <h4 class="gallery-description display reveal">
             Our team made sure that each of the Koala Krew art is unique and easily distinguishable in the collection. The combination of Koala Krew aesthetics was randomly generated from over 150 hand drawn traits. This means no two Koalas are exactly alike.
             <br>
             <br>
@@ -221,7 +238,7 @@
         <div class="roadmap-container">
             
             <h3 id="roadmap">ROADMAP</h3>
-            <div class="roadmap-paper">
+            <div class="roadmap-paper reveal">
                 <img src="img/roadmap.png" alt="">
                 </div>
 
@@ -240,7 +257,7 @@
         <div class="faq-container" id="faq">
             <div class="faq">
                 <h3 class="faq-header">FAQ</h3>
-                <div class="accordion">
+                <div class="accordion reveal">
                     <div class="accordion-item">
                         <div class="accordion-item-header">
                             What is the total supply & mint price?
@@ -313,7 +330,7 @@
         <div class="team-container" id="team">
             <div class="team">
                 <h3>TEAM</h3>
-                <div class="team-cards">
+                <div class="team-cards reveal">
                     <div class="team-card">
                         <img class="koalas" src="img/michelle-koala.png" alt="">
                         <h5>MICHELLE</h5>
@@ -345,8 +362,8 @@
         <div class="partnership-container">
             <div class="partnership">
                 <h3>PARTNERSHIPS & COLLABS</h3>
-                <h4 class="partnership-description">Contact us below if you are interested in collaborating with Koala Krew!</h4>
-                <a class="button" onclick="window.open('https://forms.gle/xxpEJ2PUNtAJ4Agg6','_blank')">REACH OUT TO US</h5></a>
+                <h4 class="partnership-description reveal">Contact us below if you are interested in collaborating with Koala Krew!</h4>
+                <a class="button reveal" onclick="window.open('https://forms.gle/xxpEJ2PUNtAJ4Agg6','_blank')">REACH OUT TO US</h5></a>
             </div>
         </div>
         <!-- End Partnerships & Collabs -->
@@ -359,7 +376,7 @@
         </div>
         
         <div class="footer-container">
-            <div class="footer">
+            <div class="footer reveal">
                 <div class="footer-social footer-item">
                     <a href="https://discord.gg/wuNFpPASEm"><img src="img/white-discord.png" alt=""></a>
                     <a href="https://twitter.com/RealKoalaKrew"><img src="img/white-twitter.png" alt=""></a>
