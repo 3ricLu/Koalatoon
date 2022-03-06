@@ -128,7 +128,7 @@ h6 {
 
 .about-container {
     background:#C2EBFF;
-    padding: 9% 10%;
+    padding: 5% 7%;
     background-repeat: no-repeat;
     background-size:cover;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='500' preserveAspectRatio='none' viewBox='0 0 1440 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1057%26quot%3b)' fill='none'%3e%3crect width='1440' height='500' x='0' y='0' fill='rgba(194%2c 235%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M1464 500L0 500 L0 389.67Q113.58 383.25%2c 120 496.82Q185.45 442.27%2c 240 507.72Q262.32 458.04%2c 312 480.36Q343.02 391.38%2c 432 422.4Q432.48 302.88%2c 552 303.35Q596.87 228.22%2c 672 273.09Q719.56 248.65%2c 744 296.21Q800.19 280.4%2c 816 336.6Q869.05 269.65%2c 936 322.7Q952.54 267.24%2c 1008 283.78Q1031.85 235.63%2c 1080 259.48Q1247.81 355.29%2c 1152 523.09Q1062.32 361.41%2c 1224 271.72Q1392.62 320.34%2c 1344 488.95Q1324.67 349.63%2c 1464 330.3z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1057'%3e%3crect width='1440' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
@@ -232,7 +232,7 @@ h6 {
     background:#DCF3FC;
     background: linear-gradient(#C1E9FA, #EAF5FE);
     text-align: center;
-    padding: 80px;
+    padding: 0px;
 }
 
 
@@ -381,7 +381,7 @@ h6 {
 }
 
 .team-container {
-    padding: 7% 6%;
+    padding: 0% 10%;
     text-align: center;
     background: #9DE0A1;
 }
@@ -439,7 +439,7 @@ h6 {
 .partnership-container {
     background: #84B8A6;
     text-align: center;
-    padding: 10% 6%;
+    padding: 5% 0%;
 }
 
 .partnership-container h4{
@@ -488,7 +488,7 @@ h6 {
 .footer-container {
     background: #346851;
     text-align: center;
-    padding: 6% 6%;
+    padding: 3% 3%;
 }
 
 .footer-container h1 {
@@ -897,7 +897,7 @@ background: rgba(0, 0, 0, 0.8);
     /* Gallery */
 
     .gallery-container {
-        padding: 7% 10%;
+        padding: 5% 5%;
     }
     .gallery {
         display: inline-block;
