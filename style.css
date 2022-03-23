@@ -131,16 +131,25 @@ h6 {
     text-align: center;
 }
 
+.showcase-lore {
+    padding: 1.5% 6%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    min-height: fit-content;
+    max-height: 800px;
+}
+
 .campfire-friends {
     max-width: 49%;
 }
 
-.coming-soon-button {
+.lore-button {
     display: inline-block;
     flex-direction: column;
     background-color:#F0EEAA;
-    outline-offset: 4px;
-
+    outline-offset: 0px;
+    text-align: center;
     font-size: 22px;
     font-family: "Rubik", sans-serif;
     font-weight: bold;
@@ -149,6 +158,9 @@ h6 {
     padding: 18px 22px;
     margin: 15px;
     border-radius: 50px;
+    outline: rgb(0, 0, 0);
+    outline-style: groove;
+    min-width: 200px;
 }
 
 
@@ -1154,3 +1166,33 @@ scroll-down {
     transform: translateY(0px);
     opacity: 1;
   }
+
+  /* Lore Card */
+  .lore-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lore-card {
+    display: flex;
+    padding: 1rem;
+    margin: 1;
+    padding: 10px;
+  }
+
+  .lore-card-container {
+      background-color: white;
+  }
+
+ .lore-title {
+    font-size: 20px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: bold;
+    color: #000;
+ }
+
+

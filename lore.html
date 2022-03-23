@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koalatoon</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500;800&family=Balsamiq+Sans:wght@400;700&family=Quantico:wght@400;700&family=Rubik:wght@400;700&family=Saira+Condensed:wght@500&family=Smooch+Sans:wght@700&family=Teko:wght@500&family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+
+    
+    
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+    <!-- Revealing script -->
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
+
+                /*change revealPoint for how much user needs to scroll to reveal things*/
+                var revealPoint = 100;
+
+                if(revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+            } 
+        }
+    </script>
+
+    
+     <!-- Favicon-->
+     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+     <link rel="manifest" href="files/img/favicon/site.webmanifest"> 
+
+
+     
+
+</head>
+<body>
+    <main>
+        
+
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <a class="nav-title" href="#home" >Koalatoon</a>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+
+                <div class="top-social">
+                    <div class="social-item social-discord"><a href="https://discord.gg/SCTXaeCxBH"><img src="img/black-discord.png" alt=""></a></div>
+                    <div class="social-item social-twitter"><a href="https://twitter.com/KoalatoonNFT"><img src="img/black-twitter.png" alt=""></a></div>
+                </div>
+                
+                </div>
+                
+                
+            </div>
+          </div>
+
+        <!-- Home -->
+        
+        <section class="home">
+            
+            <div class="showcase-lore">
+                <!-- All the lore stuff goes here -->
+                <h2>Koalatoon Lore</h2>
+                <ul class="lore-container">
+                    <li class="lore-card">
+                        <div>
+                            <div>
+                                <img src="https://picsum.photos/500/300/?image=10">
+                            </div>
+                            <div class="lore-card-container">
+                                <div class="lore-title">
+                                    The Wildfire
+                                </div>
+                                <button class="lore-button">
+                                    Go to Chapter 1
+                                </button>
+                            </div>
+                        </div>
+                    </li> 
+                     
+                    <li class="lore-card">
+                        <div>
+                            <div>
+                                <img src="https://picsum.photos/500/300/?image=10">
+                            </div>
+                            <div class="lore-card-container">
+                                <div class="lore-title">
+                                    The Wildfire
+                                </div>
+                                <button class="lore-button">
+                                    Go to Chapter 1
+                                </button>
+                            </div>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+        </section>
+        
+        <button class="scrollToTopBtn">▲</i></button>
+        <!-- End Footer -->
+    </div>
+    </main>
+</body>
+</html>
