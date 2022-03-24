@@ -158,8 +158,10 @@ h6 {
     padding: 18px 22px;
     margin: 15px;
     border-radius: 50px;
-    /* outline: rgb(0, 0, 0); */
-    /* outline-style: groove; */
+    outline: white;
+    outline-offset: 0px;
+    outline-width: 1px;
+    outline-style: solid;
     min-width: 200px;
 }
 
