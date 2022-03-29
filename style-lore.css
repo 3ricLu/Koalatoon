@@ -336,12 +336,12 @@
   overflow: visible;
 }
 .chapter-text {
-  color: rgb(216, 218, 210);
+  color: rgb(255, 255, 255);
   padding-left: 7%;
   padding-right: 7%;
   padding-bottom: 1em;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  font-size: 1em;
+  font-family: Garamond, Verdana, Geneva, Tahoma, serif;
+  font-size: 1.4em;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
@@ -353,9 +353,10 @@
   color: rgb(216, 218, 210);
   padding-left: 7%;
   padding-right: 7%;
+  padding-top: 1em;
   padding-bottom: 1em;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  font-size: 2em;
+  font-family: Garamond, Verdana, Geneva, Tahoma, serif;
+  font-size: 2.5em;
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
