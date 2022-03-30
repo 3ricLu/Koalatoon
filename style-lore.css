@@ -335,6 +335,20 @@
   background: rgba(0, 0, 0, 0.787);
   overflow: visible;
 }
+.chapter-text-end {
+  color: rgb(175, 237, 245);
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 1em;
+  font-family: Garamond, Verdana, Geneva, Tahoma, serif;
+  font-size: 1.4em;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .chapter-text {
   color: rgb(255, 255, 255);
   padding-left: 7%;
@@ -360,4 +374,16 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+}
+
+.social-item {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 1em;
+  font-size: 1.4em;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
